@@ -102,7 +102,7 @@ def calc_iic(button):
 
     
     print '\n'
-    print 'Image Interaction correction (LZ) =', lz, 'eV'
+    print 'Image interaction correction (LZ) =', lz, 'eV'
     print 'Predicted alignment correction    =', q*(alignment_1*N_1 + alignment_2*N_2 + alignment_3*N_3), 'eV'
     print 'Combined correction               =', lz + q*(alignment_1*N_1 + alignment_2*N_2 + alignment_3*N_3), 'eV'
 
