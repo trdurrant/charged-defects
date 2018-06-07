@@ -12,6 +12,8 @@ c_sh = 0.369
 
 def madelung(L, epsilon, q=1): 
     """ Get the defect interaction energy of a single point charge """
+    # Convert inputf from Bohr to Ang
+    L = L*ang2Bohr
     pointEng = (2.8373*(q**2))/(2.0*L) 
     return pointEng/epsilon
 
