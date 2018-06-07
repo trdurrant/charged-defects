@@ -76,6 +76,7 @@ def calc_iic(button):
     display(button)
     print 'Image interaction correction'
     print 'L =', L, '(Angstrom) ' 'epsilon=', epsilon, 'q =', q
+    print 'MP IIC', mp, 'eV'
     print 'LZ IIC', lz, 'eV'
     print '\n'
     
